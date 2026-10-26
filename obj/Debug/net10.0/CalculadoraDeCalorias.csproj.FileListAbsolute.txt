@@ -1,0 +1,14 @@
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/bin/Debug/net10.0/CalculadoraDeCalorias
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/bin/Debug/net10.0/CalculadoraDeCalorias.deps.json
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/bin/Debug/net10.0/CalculadoraDeCalorias.runtimeconfig.json
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/bin/Debug/net10.0/CalculadoraDeCalorias.dll
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/bin/Debug/net10.0/CalculadoraDeCalorias.pdb
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/CalculadoraDeCalorias.GeneratedMSBuildEditorConfig.editorconfig
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/CalculadoraDeCalorias.AssemblyInfoInputs.cache
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/CalculadoraDeCalorias.AssemblyInfo.cs
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/CalculadoraDeCalorias.csproj.CoreCompileInputs.cache
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/CalculadoraDeCalorias.dll
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/refint/CalculadoraDeCalorias.dll
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/CalculadoraDeCalorias.pdb
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/CalculadoraDeCalorias.genruntimeconfig.cache
+/home/samuelcastro/CSharp/CalculadoraDeCalorias/obj/Debug/net10.0/ref/CalculadoraDeCalorias.dll
