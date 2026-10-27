@@ -35,7 +35,7 @@ public class Calculadora
         Console.Write("Digite seu peso em kg (ex: 65): ");
         while (!decimal.TryParse(Console.ReadLine(), out peso))
         {
-            Console.WriteLine("Peso inválida");
+            Console.WriteLine("Peso inválido");
             Console.Write("Digite seu peso em kg (ex: 65): ");
         }
 
@@ -166,7 +166,7 @@ public class Calculadora
         Console.Write("Digite seu peso em kg (ex: 65): ");
         while (!decimal.TryParse(Console.ReadLine(), out peso))
         {
-            Console.WriteLine("Peso inválida");
+            Console.WriteLine("Peso inválido");
             Console.Write("Digite seu peso em kg (ex: 65): ");
         }
 
@@ -297,7 +297,7 @@ public class Calculadora
         Console.Write("Digite seu peso em kg (ex: 65): ");
         while (!decimal.TryParse(Console.ReadLine(), out peso))
         {
-            Console.WriteLine("Peso inválida");
+            Console.WriteLine("Peso inválido");
             Console.Write("Digite seu peso em kg (ex: 65): ");
         }
 
