@@ -53,9 +53,9 @@ public class Calculadora
         {
             Console.WriteLine("==================");
             Console.WriteLine("Você é: ");
-            Console.WriteLine("1- Sedentario");
-            Console.WriteLine("2- Levemente ativo");
-            Console.WriteLine("3- Ativo");
+            Console.WriteLine("1- Sedentário(a)");
+            Console.WriteLine("2- Levemente ativo(a)");
+            Console.WriteLine("3- Ativo(a)");
             Console.WriteLine("==================");
 
             Console.Write("Opção: ");
@@ -80,9 +80,9 @@ public class Calculadora
             decimal sedentario = resultado * 1.2m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {sedentario} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {sedentario - 500} a {sedentario - 400} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {sedentario - 500:f0} a {sedentario - 400:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 2 && genero == 'M')
@@ -90,9 +90,9 @@ public class Calculadora
             decimal levemente = resultado * 1.375m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {levemente} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {levemente - 500} a {levemente - 400} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {levemente:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {levemente - 500:f0} a {levemente - 400:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 3 && genero == 'M')
@@ -100,9 +100,9 @@ public class Calculadora
             decimal ativo = resultado * 1.55m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {ativo} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {ativo - 500} a {ativo - 400} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {ativo:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {ativo - 500:f0} a {ativo - 400:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 1 && genero == 'F')
@@ -110,9 +110,9 @@ public class Calculadora
             decimal sedentario = resultado2 * 1.2m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {sedentario} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {sedentario - 500} a {sedentario - 400} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {sedentario - 500:f0} a {sedentario - 400:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 2 && genero == 'F')
@@ -120,9 +120,9 @@ public class Calculadora
             decimal levemente = resultado2 * 1.375m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {levemente} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {levemente - 500} a {levemente - 400} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {levemente:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {levemente - 500:f0} a {levemente - 400:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 3 && genero == 'F')
@@ -130,9 +130,9 @@ public class Calculadora
             decimal ativo = resultado2 * 1.55m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {ativo} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {ativo - 500} a {ativo - 400} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {ativo:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {ativo - 500:f0} a {ativo - 400:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else
@@ -184,9 +184,9 @@ public class Calculadora
         {
             Console.WriteLine("==================");
             Console.WriteLine("Você é: ");
-            Console.WriteLine("1- Sedentario");
-            Console.WriteLine("2- Levemente ativo");
-            Console.WriteLine("3- Ativo");
+            Console.WriteLine("1- Sedentário(a)");
+            Console.WriteLine("2- Levemente ativo(a)");
+            Console.WriteLine("3- Ativo(a)");
             Console.WriteLine("==================");
 
             Console.Write("Opção: ");
@@ -211,9 +211,9 @@ public class Calculadora
             decimal sedentario = resultado * 1.2m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {sedentario} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {sedentario + 300} a {sedentario + 500} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {sedentario + 300:f0} a {sedentario + 500:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 2 && genero == 'M')
@@ -221,9 +221,9 @@ public class Calculadora
             decimal levemente = resultado * 1.375m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {levemente} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {levemente + 300} a {levemente + 500} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {levemente:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {levemente + 300:f0} a {levemente + 500:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 3 && genero == 'M')
@@ -231,9 +231,9 @@ public class Calculadora
             decimal ativo = resultado * 1.55m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {ativo} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {ativo + 300} a {ativo + 500} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {ativo:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {ativo + 300:f0} a {ativo + 500:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 1 && genero == 'F')
@@ -241,9 +241,9 @@ public class Calculadora
             decimal sedentario = resultado2 * 1.2m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {sedentario} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {sedentario + 300} a {sedentario + 500} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {sedentario + 300:f0} a {sedentario + 500:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 2 && genero == 'F')
@@ -251,9 +251,9 @@ public class Calculadora
             decimal levemente = resultado2 * 1.375m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {levemente} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {levemente + 300} a {levemente + 500} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {levemente:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {levemente + 300:f0} a {levemente + 500:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 3 && genero == 'F')
@@ -261,9 +261,9 @@ public class Calculadora
             decimal ativo = resultado2 * 1.55m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {ativo} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir cerca de {ativo + 300} a {ativo + 500} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {ativo:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir cerca de {ativo + 300:f0} a {ativo + 500:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else
@@ -315,9 +315,9 @@ public class Calculadora
         {
             Console.WriteLine("==================");
             Console.WriteLine("Você é: ");
-            Console.WriteLine("1- Sedentario");
-            Console.WriteLine("2- Levemente ativo");
-            Console.WriteLine("3- Ativo");
+            Console.WriteLine("1- Sedentário(a)");
+            Console.WriteLine("2- Levemente ativo(a)");
+            Console.WriteLine("3- Ativo(a)");
             Console.WriteLine("==================");
 
             Console.Write("Opção: ");
@@ -342,9 +342,9 @@ public class Calculadora
             decimal sedentario = resultado * 1.2m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {sedentario} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir {sedentario} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 2 && genero == 'M')
@@ -352,9 +352,9 @@ public class Calculadora
             decimal levemente = resultado * 1.375m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {levemente} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir {levemente} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {levemente:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir {levemente:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 3 && genero == 'M')
@@ -362,9 +362,9 @@ public class Calculadora
             decimal ativo = resultado * 1.55m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {ativo} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir {ativo} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {ativo:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir {ativo:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 1 && genero == 'F')
@@ -372,9 +372,9 @@ public class Calculadora
             decimal sedentario = resultado2 * 1.2m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {sedentario} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir {sedentario} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir {sedentario:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 2 && genero == 'F')
@@ -382,9 +382,9 @@ public class Calculadora
             decimal levemente = resultado2 * 1.375m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {levemente} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir {levemente} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {levemente:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir {levemente:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else if (opcao2 == 3 && genero == 'F')
@@ -392,9 +392,9 @@ public class Calculadora
             decimal ativo = resultado2 * 1.55m;
             Console.WriteLine("========================================");
             Console.WriteLine("RESULTADO:");
-            Console.WriteLine($"Seu corpo gasta {ativo} Kcal/dia");
-            Console.WriteLine($"Você precisa consumir {ativo} Kcal/dia");
-            Console.WriteLine($"E é recomendado que você beba de {peso * 35m} ml a {peso * 40m} ml de água/dia");
+            Console.WriteLine($"Seu corpo gasta {ativo:f0} Kcal/dia");
+            Console.WriteLine($"Você precisa consumir {ativo:f0} Kcal/dia");
+            Console.WriteLine($"E é recomendado que você beba de {peso * 35m:f0} ml a {peso * 40m:f0} ml de água/dia");
             Console.WriteLine("========================================");
         }
         else
