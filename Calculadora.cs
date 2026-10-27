@@ -12,30 +12,63 @@ public class Calculadora
 
     public void PerderPeso()
     {
-        Console.Write("Digite sua idade: ");
-        int idade = int.Parse(Console.ReadLine());
+        int idade;
+        decimal altura;
+        decimal peso;
+        char genero;
+        int opcao2 = 0;
 
+        Console.Write("Digite sua idade: ");
+        while (!int.TryParse(Console.ReadLine(), out idade))
+        {
+            Console.WriteLine("Idade inválida");
+            Console.Write("Digite sua idade: ");
+        }
+        
         Console.Write("Digite sua altura em cm (ex: 175): ");
-        decimal altura = decimal.Parse(Console.ReadLine());
+        while (!decimal.TryParse(Console.ReadLine(), out altura))
+        {
+            Console.WriteLine("Altura inválida");
+            Console.Write("Digite sua altura em cm (ex: 175): ");
+        }
 
         Console.Write("Digite seu peso em kg (ex: 65): ");
-        decimal peso = decimal.Parse(Console.ReadLine());
+        while (!decimal.TryParse(Console.ReadLine(), out peso))
+        {
+            Console.WriteLine("Peso inválida");
+            Console.Write("Digite seu peso em kg (ex: 65): ");
+        }
 
         Console.Write("Digite seu gênero (M/F): ");
-        char genero = char.ToUpper(Console.ReadKey().KeyChar);
-        Console.WriteLine("\n");
+        while (!char.TryParse(Console.ReadLine()?.ToUpper(), out genero) || (genero != 'M' && genero != 'F'))
+        {
+            Console.WriteLine("Gênero inválido! Digite apenas M ou F.");
+            Console.Write("Digite seu gênero (M/F): ");
+        }
         
         Console.Clear();
 
-        Console.WriteLine("==================");
-        Console.WriteLine("Você é: ");
-        Console.WriteLine("1- Sedentario");
-        Console.WriteLine("2- Levemente ativo");
-        Console.WriteLine("3- Ativo");
-        Console.WriteLine("==================");
 
-        Console.Write("Opção: ");
-        int opcao2 = int.Parse(Console.ReadLine());
+        while (opcao2 != 1 && opcao2 != 2 && opcao2 != 3)
+        {
+            Console.WriteLine("==================");
+            Console.WriteLine("Você é: ");
+            Console.WriteLine("1- Sedentario");
+            Console.WriteLine("2- Levemente ativo");
+            Console.WriteLine("3- Ativo");
+            Console.WriteLine("==================");
+
+            Console.Write("Opção: ");
+
+            if (!int.TryParse(Console.ReadLine(), out opcao2))
+            {
+                Console.WriteLine("Por favor, digite apenas números (1, 2 ou 3).");
+            }
+            else if (opcao2 != 1 && opcao2 != 2 && opcao2 != 3) 
+            {
+                Console.WriteLine("Opção inválida! Escolha um número entre 1 e 3.");
+            }
+        }
 
         decimal resultado = (10m*peso) + (6.25m * altura) - (5m * idade) + 5m;
         decimal resultado2 = (10m*peso) + (6.25m * altura) - (5m * idade) - 161;
@@ -110,31 +143,63 @@ public class Calculadora
 
     public void GanharPeso()
     {
-        Console.Write("Digite sua idade: ");
-        int idade = int.Parse(Console.ReadLine());
+        int idade;
+        decimal altura;
+        decimal peso;
+        char genero;
+        int opcao2 = 0;
 
+        Console.Write("Digite sua idade: ");
+        while (!int.TryParse(Console.ReadLine(), out idade))
+        {
+            Console.WriteLine("Idade inválida");
+            Console.Write("Digite sua idade: ");
+        }
+        
         Console.Write("Digite sua altura em cm (ex: 175): ");
-        decimal altura = decimal.Parse(Console.ReadLine());
+        while (!decimal.TryParse(Console.ReadLine(), out altura))
+        {
+            Console.WriteLine("Altura inválida");
+            Console.Write("Digite sua altura em cm (ex: 175): ");
+        }
 
         Console.Write("Digite seu peso em kg (ex: 65): ");
-        decimal peso = decimal.Parse(Console.ReadLine());
+        while (!decimal.TryParse(Console.ReadLine(), out peso))
+        {
+            Console.WriteLine("Peso inválida");
+            Console.Write("Digite seu peso em kg (ex: 65): ");
+        }
 
         Console.Write("Digite seu gênero (M/F): ");
-        char genero = char.ToUpper(Console.ReadKey().KeyChar);
-        Console.WriteLine("\n");
-
+        while (!char.TryParse(Console.ReadLine()?.ToUpper(), out genero) || (genero != 'M' && genero != 'F'))
+        {
+            Console.WriteLine("Gênero inválido! Digite apenas M ou F.");
+            Console.Write("Digite seu gênero (M/F): ");
+        }
+        
         Console.Clear();
 
-        Console.WriteLine("==================");
-        Console.WriteLine("Você é: ");
-        Console.WriteLine("1- Sedentario");
-        Console.WriteLine("2- Levemente ativo");
-        Console.WriteLine("3- Ativo");
-        Console.WriteLine("==================");
 
-        Console.Write("Opção: ");
-        int opcao2 = int.Parse(Console.ReadLine());
+        while (opcao2 != 1 && opcao2 != 2 && opcao2 != 3)
+        {
+            Console.WriteLine("==================");
+            Console.WriteLine("Você é: ");
+            Console.WriteLine("1- Sedentario");
+            Console.WriteLine("2- Levemente ativo");
+            Console.WriteLine("3- Ativo");
+            Console.WriteLine("==================");
 
+            Console.Write("Opção: ");
+
+            if (!int.TryParse(Console.ReadLine(), out opcao2))
+            {
+                Console.WriteLine("Por favor, digite apenas números (1, 2 ou 3).");
+            }
+            else if (opcao2 != 1 && opcao2 != 2 && opcao2 != 3) 
+            {
+                Console.WriteLine("Opção inválida! Escolha um número entre 1 e 3.");
+            }
+        }
 
         decimal resultado = (10m*peso) + (6.25m * altura) - (5m * idade) + 5m;
         decimal resultado2 = (10m*peso) + (6.25m * altura) - (5m * idade) - 161;
@@ -209,31 +274,63 @@ public class Calculadora
 
     public void ManterPeso()
     {
-        Console.Write("Digite sua idade: ");
-        int idade = int.Parse(Console.ReadLine());
+        int idade;
+        decimal altura;
+        decimal peso;
+        char genero;
+        int opcao2 = 0;
 
+        Console.Write("Digite sua idade: ");
+        while (!int.TryParse(Console.ReadLine(), out idade))
+        {
+            Console.WriteLine("Idade inválida");
+            Console.Write("Digite sua idade: ");
+        }
+        
         Console.Write("Digite sua altura em cm (ex: 175): ");
-        decimal altura = decimal.Parse(Console.ReadLine());
+        while (!decimal.TryParse(Console.ReadLine(), out altura))
+        {
+            Console.WriteLine("Altura inválida");
+            Console.Write("Digite sua altura em cm (ex: 175): ");
+        }
 
         Console.Write("Digite seu peso em kg (ex: 65): ");
-        decimal peso = decimal.Parse(Console.ReadLine());
+        while (!decimal.TryParse(Console.ReadLine(), out peso))
+        {
+            Console.WriteLine("Peso inválida");
+            Console.Write("Digite seu peso em kg (ex: 65): ");
+        }
 
         Console.Write("Digite seu gênero (M/F): ");
-        char genero = char.ToUpper(Console.ReadKey().KeyChar);
-        Console.WriteLine("\n");
-
+        while (!char.TryParse(Console.ReadLine()?.ToUpper(), out genero) || (genero != 'M' && genero != 'F'))
+        {
+            Console.WriteLine("Gênero inválido! Digite apenas M ou F.");
+            Console.Write("Digite seu gênero (M/F): ");
+        }
+        
         Console.Clear();
 
-        Console.WriteLine("==================");
-        Console.WriteLine("Você é: ");
-        Console.WriteLine("1- Sedentario");
-        Console.WriteLine("2- Levemente ativo");
-        Console.WriteLine("3- Ativo");
-        Console.WriteLine("==================");
 
-        Console.Write("Opção: ");
-        int opcao2 = int.Parse(Console.ReadLine());
+        while (opcao2 != 1 && opcao2 != 2 && opcao2 != 3)
+        {
+            Console.WriteLine("==================");
+            Console.WriteLine("Você é: ");
+            Console.WriteLine("1- Sedentario");
+            Console.WriteLine("2- Levemente ativo");
+            Console.WriteLine("3- Ativo");
+            Console.WriteLine("==================");
 
+            Console.Write("Opção: ");
+
+            if (!int.TryParse(Console.ReadLine(), out opcao2))
+            {
+                Console.WriteLine("Por favor, digite apenas números (1, 2 ou 3).");
+            }
+            else if (opcao2 != 1 && opcao2 != 2 && opcao2 != 3) 
+            {
+                Console.WriteLine("Opção inválida! Escolha um número entre 1 e 3.");
+            }
+        }
 
         decimal resultado = (10m*peso) + (6.25m * altura) - (5m * idade) + 5m;
         decimal resultado2 = (10m*peso) + (6.25m * altura) - (5m * idade) - 161;

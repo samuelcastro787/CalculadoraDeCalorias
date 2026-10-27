@@ -7,6 +7,7 @@ public class Menu
     public void ExibirMenu()
     {
         bool Continuar = true;
+        int opcao = 0;
 
         while(Continuar)
         {
@@ -20,7 +21,17 @@ public class Menu
             Console.WriteLine("======================");
 
             Console.Write("Escolha uma opção: ");
-            int opcao = int.Parse(Console.ReadLine());
+
+            if (!int.TryParse(Console.ReadLine(), out opcao))
+            {
+                Console.WriteLine("Por favor, digite apenas números (1, 2, 3 ou 4).");
+                calculadora.AguardarEnter();
+            }
+            else if (opcao != 1 && opcao != 2 && opcao != 3 && opcao != 4)
+            {
+                Console.WriteLine("Opção inválida! Escolha um número entre 1 e 4.");
+                calculadora.AguardarEnter();
+            }
 
 
             switch(opcao)

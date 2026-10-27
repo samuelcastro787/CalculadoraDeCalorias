@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculadoraDeCalorias")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e15f9aca1a6ccae219a2c72ecef35242391b801")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculadoraDeCalorias")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculadoraDeCalorias")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
